@@ -128,6 +128,16 @@ export default function CyberStrikeHome() {
           >
             Наше железо
           </a>
+           <a
+            href="#interior"
+            onClick={(e) => {
+              e.preventDefault();
+              scrollTo('interior');
+            }}
+            className="text-sm text-gray-300 hover:text-white transition-colors"
+          >
+            Интерьер
+          </a>
           <a
             href="#playstation"
             onClick={(e) => {
@@ -187,6 +197,18 @@ export default function CyberStrikeHome() {
                     className="text-lg text-gray-300 hover:text-white transition-colors"
                   >
                     Наше железо
+                  </a>
+                </SheetClose>
+                 <SheetClose asChild>
+                  <a
+                    href="#interior"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      scrollTo('interior');
+                    }}
+                    className="text-lg text-gray-300 hover:text-white transition-colors"
+                  >
+                    Интерьер
                   </a>
                 </SheetClose>
                 <SheetClose asChild>
@@ -394,6 +416,16 @@ export default function CyberStrikeHome() {
               <SpecItem label="Наушники" value="Razer BlackShark V2" />
             </FeatureCard>
           </div>
+        </section>
+
+        {/* INTERIOR */}
+        <section id="interior" className="mt-24 scroll-mt-24">
+           <h2 className="text-3xl font-extrabold text-center">
+            Наш <Accent>интерьер</Accent>
+          </h2>
+           <p className="text-gray-400 text-center max-w-2xl mx-auto mt-2">
+            Современный дизайн, удобные кресла и продуманная атмосфера для максимального комфорта.
+          </p>
           <div className="mt-8">
             <Carousel
               opts={{
@@ -637,5 +669,3 @@ export default function CyberStrikeHome() {
     </div>
   );
 }
-
-    
