@@ -420,7 +420,7 @@ export default function CyberStrikeHome() {
               <CarouselContent>
                 <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                   <Image
-                    src="https://i.imgur.com/gK9pBvV.jpeg"
+                    src="https://picsum.photos/seed/interior1/600/400"
                     alt="Интерьер клуба 1"
                     width={600}
                     height={400}
@@ -614,3 +614,5 @@ export default function CyberStrikeHome() {
     </div>
   );
 }
+
+    
