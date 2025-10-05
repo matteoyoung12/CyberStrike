@@ -250,7 +250,7 @@ export default function CyberStrikeHome() {
               className="text-gray-300 max-w-xl"
             >
               CyberStrike — современный клуб для киберспортсменов и
-              casual-игроков. Мощные ПК, PS5-комната, турниры и уютная
+              casual-игроков. Мощные ПК, PS5-комната и уютная
               атмосфера.
             </motion.p>
 
