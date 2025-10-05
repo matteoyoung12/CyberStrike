@@ -559,7 +559,7 @@ export default function CyberStrikeHome() {
             <li><span className="text-yellow-400 font-bold mr-2">—</span>Клуб имеет право в ограничении доступа в соответствии с требованиями служб правопорядка и органов милиции, прописанными в законе о местах массового пребывания людей.</li>
             <li><span className="text-yellow-400 font-bold mr-2">—</span>Запрещается спать в клубе.</li>
             <li><span className="text-yellow-400 font-bold mr-2">—</span>Запрещен доступ в клуб с животными.</li>
-            <li><span className="text-yellow-400 font-bold mr-2">—</span>Запрещен доступ в клуб лицам в состоянии алкогольного или наркотического опьянения, степень которого администрация клуба определяет по своему усмотрению.</li>
+            <li><span className="text-yellow-400 font-bold mr-2">—</span>Запрещен доступ в клуб лицам в состоянии алкогольного или наркотического опьянения, степень которого администрация клуба определяет по своему усмотнению.</li>
             <li><span className="text-yellow-400 font-bold mr-2">—</span>Запрещается пользоваться симуляторами интернет-казино.</li>
             <li><span className="text-yellow-400 font-bold mr-2">—</span>В клубе возможно находиться при оплаченном игровом времени, либо при ожидании свободного компьютера.</li>
             <li><span className="text-yellow-400 font-bold mr-2">—</span>Запрещается употреблять на территории клуба снюс, насвай и другие виды бездымного табака.</li>
@@ -591,11 +591,13 @@ export default function CyberStrikeHome() {
           </div>
 
           <div className="mt-6">
-            <Button
-              className="px-8 py-3 rounded-lg bg-yellow-400 text-black font-semibold hover:bg-yellow-500 transition-colors shadow-lg shadow-yellow-500/30"
-            >
-              Позвонить для брони
-            </Button>
+            <a href="tel:+375297301010">
+              <Button
+                className="px-8 py-3 rounded-lg bg-yellow-400 text-black font-semibold hover:bg-yellow-500 transition-colors shadow-lg shadow-yellow-500/30"
+              >
+                Позвонить для брони
+              </Button>
+            </a>
           </div>
         </section>
 
