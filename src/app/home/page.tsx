@@ -366,7 +366,7 @@ export default function CyberStrikeHome() {
                       data-ai-hint="building entrance"
                     />
                      <Image
-                      src="/images/location4.jpg"
+                      src="/images/location4.png"
                       alt="Фото местоположения 4"
                       width={600}
                       height={400}
