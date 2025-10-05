@@ -28,6 +28,19 @@ import {
 } from '@/components/ui/carousel';
 import { Gamepad2, Dices, Mouse, Menu } from 'lucide-react';
 
+import location1 from '/public/images/location1.jpg';
+import location2 from '/public/images/location2.jpg';
+import location3 from '/public/images/location3.jpg';
+import location4 from '/public/images/location4.jpg';
+import pc1 from '/public/images/pc1.jpg';
+import pc2 from '/public/images/pc2.jpg';
+import pc3 from '/public/images/pc3.jpg';
+import pc4 from '/public/images/pc4.jpg';
+import pc5 from '/public/images/pc5.jpg';
+import ps5_1 from '/public/images/ps5-1.jpg';
+import ps5_2 from '/public/images/ps5-2.jpg';
+
+
 const Accent = ({ children }: { children: React.ReactNode }) => (
   <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 font-extrabold">
     {children}
@@ -341,7 +354,7 @@ export default function CyberStrikeHome() {
                   </p>
                   <div className="grid grid-cols-2 gap-4">
                     <Image
-                      src="/images/location1.jpg"
+                      src={location1}
                       alt="Фото местоположения 1"
                       width={600}
                       height={400}
@@ -349,7 +362,7 @@ export default function CyberStrikeHome() {
                       data-ai-hint="building exterior"
                     />
                     <Image
-                      src="/images/location2.jpg"
+                      src={location2}
                       alt="Фото местоположения 2"
                       width={600}
                       height={400}
@@ -357,7 +370,7 @@ export default function CyberStrikeHome() {
                       data-ai-hint="street view"
                     />
                      <Image
-                      src="/images/location3.jpg"
+                      src={location3}
                       alt="Фото местоположения 3"
                       width={600}
                       height={400}
@@ -365,7 +378,7 @@ export default function CyberStrikeHome() {
                       data-ai-hint="building entrance"
                     />
                      <Image
-                      src="/images/location4.jpg"
+                      src={location4}
                       alt="Фото местоположения 4"
                       width={600}
                       height={400}
@@ -437,7 +450,7 @@ export default function CyberStrikeHome() {
               <CarouselContent>
                 <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                   <Image
-                    src="/images/pc1.jpg"
+                    src={pc1}
                     alt="Игровые компьютеры 1"
                     width={600}
                     height={400}
@@ -447,7 +460,7 @@ export default function CyberStrikeHome() {
                 </CarouselItem>
                 <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                   <Image
-                    src="/images/pc2.jpg"
+                    src={pc2}
                     alt="Игровые компьютеры 2"
                     width={600}
                     height={400}
@@ -457,7 +470,7 @@ export default function CyberStrikeHome() {
                 </CarouselItem>
                 <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                   <Image
-                    src="/images/pc3.jpg"
+                    src={pc3}
                     alt="Игровые компьютеры 3"
                     width={600}
                     height={400}
@@ -467,7 +480,7 @@ export default function CyberStrikeHome() {
                 </CarouselItem>
                 <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                   <Image
-                    src="/images/pc4.jpg"
+                    src={pc4}
                     alt="Игровые компьютеры 4"
                     width={600}
                     height={400}
@@ -477,7 +490,7 @@ export default function CyberStrikeHome() {
                 </CarouselItem>
                  <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                   <Image
-                    src="/images/pc5.jpg"
+                    src={pc5}
                     alt="Игровые компьютеры 5"
                     width={600}
                     height={400}
@@ -502,7 +515,7 @@ export default function CyberStrikeHome() {
           </p>
            <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
               <Image
-                src="/images/ps5-1.jpg"
+                src={ps5_1}
                 alt="PlayStation 5 комната 1"
                 width={800}
                 height={600}
@@ -510,7 +523,7 @@ export default function CyberStrikeHome() {
                 data-ai-hint="playstation room"
               />
               <Image
-                src="/images/ps5-2.jpg"
+                src={ps5_2}
                 alt="PlayStation 5 комната 2"
                 width={800}
                 height={600}
