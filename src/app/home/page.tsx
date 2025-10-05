@@ -276,7 +276,7 @@ export default function CyberStrikeHome() {
               </motion.a>
             </div>
 
-            <div className="grid grid-cols-3 gap-8 mt-6 pt-6">
+            <div className="grid grid-cols-2 gap-8 mt-6 pt-6">
               <div className="text-sm">
                 <div className="text-gray-300 font-semibold">16</div>
                 <div className="text-gray-500 text-xs">Игровых ПК</div>
@@ -284,10 +284,6 @@ export default function CyberStrikeHome() {
               <div className="text-sm">
                 <div className="text-gray-300 font-semibold">PS5</div>
                 <div className="text-gray-500 text-xs">Отдельная комната</div>
-              </div>
-              <div className="text-sm">
-                <div className="text-gray-300 font-semibold">750+</div>
-                <div className="text-gray-500 text-xs">Игр</div>
               </div>
             </div>
           </div>
