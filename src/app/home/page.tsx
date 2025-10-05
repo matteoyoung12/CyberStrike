@@ -278,7 +278,7 @@ export default function CyberStrikeHome() {
 
             <div className="grid grid-cols-3 gap-8 mt-6 pt-6">
               <div className="text-sm">
-                <div className="text-gray-300 font-semibold">15</div>
+                <div className="text-gray-300 font-semibold">16</div>
                 <div className="text-gray-500 text-xs">Игровых ПК</div>
               </div>
               <div className="text-sm">
@@ -368,7 +368,7 @@ export default function CyberStrikeHome() {
           </h2>
           <p className="text-gray-400 text-center max-w-2xl mx-auto mt-2">
             Мы собрали мощные игровые станции, чтобы вы могли наслаждаться
-            любимыми играми на максимальных настройках без лагов и фризов.
+            любимыми играми на максимальных настройках без лагов и фризов. Всего 16 ПК: 13 стандартных, 2 комфортных и 3 VIP.
           </p>
           <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
             <FeatureCard
@@ -614,5 +614,3 @@ export default function CyberStrikeHome() {
     </div>
   );
 }
-
-    
