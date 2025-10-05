@@ -129,14 +129,14 @@ export default function CyberStrikeHome() {
             Наше железо
           </a>
           <a
-            href="#interior"
+            href="#playstation"
             onClick={(e) => {
               e.preventDefault();
-              scrollTo('interior');
+              scrollTo('playstation');
             }}
             className="text-sm text-gray-300 hover:text-white transition-colors"
           >
-            Наш интерьер
+            PlayStation 5
           </a>
           <a
             href="#rules"
@@ -191,14 +191,14 @@ export default function CyberStrikeHome() {
                 </SheetClose>
                 <SheetClose asChild>
                   <a
-                    href="#interior"
+                    href="#playstation"
                     onClick={(e) => {
                       e.preventDefault();
-                      scrollTo('interior');
+                      scrollTo('playstation');
                     }}
                     className="text-lg text-gray-300 hover:text-white transition-colors"
                   >
-                    Наш интерьер
+                    PlayStation 5
                   </a>
                 </SheetClose>
                 <SheetClose asChild>
@@ -319,7 +319,7 @@ export default function CyberStrikeHome() {
                   </p>
                   <div className="grid grid-cols-2 gap-4">
                     <Image
-                      src="https://picsum.photos/seed/location1/600/400"
+                      src="/images/location1.jpg"
                       alt="Фото местоположения 1"
                       width={600}
                       height={400}
@@ -327,7 +327,7 @@ export default function CyberStrikeHome() {
                       data-ai-hint="building exterior"
                     />
                     <Image
-                      src="https://picsum.photos/seed/location2/600/400"
+                      src="/images/location2.jpg"
                       alt="Фото местоположения 2"
                       width={600}
                       height={400}
@@ -335,7 +335,7 @@ export default function CyberStrikeHome() {
                       data-ai-hint="street view"
                     />
                      <Image
-                      src="https://picsum.photos/seed/location3/600/400"
+                      src="/images/location3.jpg"
                       alt="Фото местоположения 3"
                       width={600}
                       height={400}
@@ -343,7 +343,7 @@ export default function CyberStrikeHome() {
                       data-ai-hint="building entrance"
                     />
                      <Image
-                      src="https://picsum.photos/seed/location4/600/400"
+                      src="/images/location4.jpg"
                       alt="Фото местоположения 4"
                       width={600}
                       height={400}
@@ -360,7 +360,7 @@ export default function CyberStrikeHome() {
         {/* HARDWARE */}
         <section id="hardware" className="mt-24 scroll-mt-24">
           <h2 className="text-3xl font-extrabold text-center">
-            Наше <Accent>железо</Accent>
+            Наши <Accent>компьютеры</Accent>
           </h2>
           <p className="text-gray-400 text-center max-w-2xl mx-auto mt-2">
             Мы собрали мощные игровые станции, чтобы вы могли наслаждаться
@@ -394,17 +394,6 @@ export default function CyberStrikeHome() {
               <SpecItem label="Наушники" value="Razer BlackShark V2" />
             </FeatureCard>
           </div>
-        </section>
-
-        {/* INTERIOR */}
-        <section id="interior" className="mt-24 scroll-mt-24">
-          <h2 className="text-3xl font-extrabold text-center">
-            Наш <Accent>интерьер</Accent>
-          </h2>
-          <p className="text-gray-400 text-center max-w-2xl mx-auto mt-2">
-            Атмосфера, в которую хочется возвращаться. Уютные игровые зоны,
-            правильное освещение и удобные кресла.
-          </p>
           <div className="mt-8">
             <Carousel
               opts={{
@@ -416,48 +405,86 @@ export default function CyberStrikeHome() {
               <CarouselContent>
                 <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                   <Image
-                    src="https://picsum.photos/seed/interior1/600/400"
-                    alt="Интерьер клуба 1"
+                    src="/images/pc1.jpg"
+                    alt="Игровые компьютеры 1"
                     width={600}
                     height={400}
                     className="rounded-xl object-cover"
-                    data-ai-hint="gaming cafe"
+                    data-ai-hint="gaming setup"
                   />
                 </CarouselItem>
                 <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                   <Image
-                    src="https://picsum.photos/seed/interior2/600/400"
-                    alt="Интерьер клуба 2"
+                    src="/images/pc2.jpg"
+                    alt="Игровые компьютеры 2"
                     width={600}
                     height={400}
                     className="rounded-xl object-cover"
-                    data-ai-hint="esports arena"
+                    data-ai-hint="esports computers"
                   />
                 </CarouselItem>
                 <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                   <Image
-                    src="https://picsum.photos/seed/interior3/600/400"
-                    alt="Интерьер клуба 3"
-                    width={600}
-                    height={400}
-                    className="rounded-xl object-cover"
-                    data-ai-hint="playstation room"
-                  />
-                </CarouselItem>
-                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-                  <Image
-                    src="https://picsum.photos/seed/interior4/600/400"
-                    alt="Интерьер клуба 4"
+                    src="/images/pc3.jpg"
+                    alt="Игровые компьютеры 3"
                     width={600}
                     height={400}
                     className="rounded-xl object-cover"
                     data-ai-hint="gaming chairs"
                   />
                 </CarouselItem>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <Image
+                    src="/images/pc4.jpg"
+                    alt="Игровые компьютеры 4"
+                    width={600}
+                    height={400}
+                    className="rounded-xl object-cover"
+                    data-ai-hint="pc gaming"
+                  />
+                </CarouselItem>
+                 <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <Image
+                    src="/images/pc5.jpg"
+                    alt="Игровые компьютеры 5"
+                    width={600}
+                    height={400}
+                    className="rounded-xl object-cover"
+                    data-ai-hint="computer club"
+                  />
+                </CarouselItem>
               </CarouselContent>
               <CarouselPrevious className="ml-16" />
               <CarouselNext className="mr-16" />
             </Carousel>
+          </div>
+        </section>
+
+        {/* PLAYSTATION */}
+        <section id="playstation" className="mt-24 scroll-mt-24">
+           <h2 className="text-3xl font-extrabold text-center">
+            <Accent>PlayStation 5</Accent>
+          </h2>
+          <p className="text-gray-400 text-center max-w-2xl mx-auto mt-2">
+            Отдельная комната с PlayStation 5 для полного погружения. Удобные диваны и большой 4K-телевизор.
+          </p>
+           <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+              <Image
+                src="/images/ps5-1.jpg"
+                alt="PlayStation 5 комната 1"
+                width={800}
+                height={600}
+                className="rounded-xl object-cover"
+                data-ai-hint="playstation room"
+              />
+              <Image
+                src="/images/ps5-2.jpg"
+                alt="PlayStation 5 комната 2"
+                width={800}
+                height={600}
+                className="rounded-xl object-cover"
+                data-ai-hint="gaming console setup"
+              />
           </div>
         </section>
 
@@ -610,3 +637,5 @@ export default function CyberStrikeHome() {
     </div>
   );
 }
+
+    
