@@ -1,0 +1,40 @@
+{
+  "placeholderImages": [
+    {
+      "id": "cyber-1",
+      "description": "Abstract cybersecurity visualization with blue and purple tones.",
+      "imageUrl": "https://images.unsplash.com/photo-1626908013943-df94de54984c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjeWJlcnNlY3VyaXR5JTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3NTk2NjU0MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cybersecurity technology"
+    },
+    {
+      "id": "cyber-2",
+      "description": "Programmer's desk with multiple monitors showing code.",
+      "imageUrl": "https://images.unsplash.com/photo-1658232212757-9ddbb370f675?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoYWNrZXIlMjBjb2RlfGVufDB8fHx8MTc1OTYwMDY3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hacker code"
+    },
+    {
+      "id": "cyber-3",
+      "description": "Server room with racks of hardware.",
+      "imageUrl": "https://images.unsplash.com/photo-1584169417032-d34e8d805e8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkYXRhJTIwY2VudGVyfGVufDB8fHx8MTc1OTU3NjY3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data center"
+    },
+    {
+      "id": "cyber-4",
+      "description": "Close-up of a motherboard's circuitry.",
+      "imageUrl": "https://images.unsplash.com/photo-1727119313143-779799ad0aed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb21wdXRlciUyMGNpcmN1aXR8ZW58MHx8fHwxNzU5NjY1NDA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "computer circuit"
+    },
+    {
+      "id": "cyber-5",
+      "description": "Person typing on a laptop in a dark room, illuminated by the screen.",
+      "imageUrl": "https://images.unsplash.com/photo-1582266255765-fa5cf1a1d501?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhbm9ueW1vdXMlMjBoYWNrZXJ8ZW58MHx8fHwxNzU5NjYwNTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "anonymous hacker"
+    },
+    {
+      "id": "cyber-6",
+      "description": "Digital lock icon on a screen, symbolizing online security.",
+      "imageUrl": "https://images.unsplash.com/photo-1667453466805-75bbf36e8707?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkaWdpdGFsJTIwc2VjdXJpdHl8ZW58MHx8fHwxNzU5NTgyNzY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital security"
+    }
+  ]
+}
