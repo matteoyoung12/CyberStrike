@@ -1,10 +1,9 @@
 import Image from 'next/image';
-import logo from '/public/images/logo.png';
 
 export function Logo(props: Omit<React.ComponentProps<typeof Image>, 'src' | 'alt'>) {
   return (
     <Image
-      src={logo}
+      src="/images/logo.png"
       alt="CyberStrike Logo"
       width={48}
       height={48}
@@ -12,5 +11,3 @@ export function Logo(props: Omit<React.ComponentProps<typeof Image>, 'src' | 'al
     />
   );
 }
-
-    
