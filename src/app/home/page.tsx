@@ -497,7 +497,7 @@ export default function CyberStrikeHome() {
             <Accent>PlayStation 5</Accent>
           </h2>
           <p className="text-gray-400 text-center max-w-2xl mx-auto mt-2">
-            Отдельная комната с PlayStation 5 для полного погружения. Удобные диваны и большой 4K-телевизор.
+            Отдельная комната с PlayStation 5 для максимального досуга. Удобные диваны, большой телевизор, библиотека из 750 игр.
           </p>
            <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
               <Image
