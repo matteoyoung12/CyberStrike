@@ -283,7 +283,7 @@ export default function CyberStrikeHome() {
                 whileHover={{ scale: 1.02 }}
                 className="inline-flex items-center gap-3 px-6 py-3 rounded-lg bg-yellow-400 text-black font-semibold shadow-xl shadow-yellow-500/30"
               >
-                Забронировать слот
+                Забронировать ПК или PS5
               </motion.button>
 
               <motion.a
@@ -639,7 +639,7 @@ export default function CyberStrikeHome() {
           className="mt-24 scroll-mt-24 bg-neutral-900/50 p-8 rounded-2xl border border-yellow-400/20 text-center"
         >
           <h2 className="text-3xl font-extrabold">
-            <Accent>Забронировать</Accent> место
+            <Accent>Забронировать</Accent> ПК или PS5
           </h2>
           <div className="mt-4 text-lg text-gray-300">
             <p>Чтобы забронировать место, позвоните нам:</p>
