@@ -272,9 +272,7 @@ export default function CyberStrikeHome() {
               transition={{ delay: 0.2 }}
               className="text-gray-300 max-w-xl"
             >
-              CyberStrike — современный клуб для киберспортсменов и
-              casual-игроков. Мощные ПК, PS5-комната и уютная
-              атмосфера.
+              CyberStrike - современное игровое пространство для всех любителей видеоигр. Мощные ПК, PS5-комната и уютная атмосфера.
             </motion.p>
 
             <div className="flex gap-3">
