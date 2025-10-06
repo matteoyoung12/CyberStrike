@@ -1,6 +1,7 @@
 import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
+import { CookieBanner } from '@/components/cookie-banner';
 
 export const metadata: Metadata = {
   title: 'CyberStrike Info Hub',
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body className="font-body bg-background" suppressHydrationWarning={true}>
         {children}
         <Toaster />
+        <CookieBanner />
       </body>
     </html>
   );
