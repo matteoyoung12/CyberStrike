@@ -104,7 +104,7 @@ export default function CyberStrikeHome() {
               CyberStrike
             </div>
             <div className="text-xs text-gray-400 -mt-1">
-              Gaming Club — Гродно
+              Компьютерный клуб - Гродно
             </div>
           </div>
         </Link>
