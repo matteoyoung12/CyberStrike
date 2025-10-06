@@ -384,8 +384,8 @@ export default function CyberStrikeHome() {
             Наши <Accent>компьютеры</Accent>
           </h2>
           <p className="text-gray-400 text-center max-w-2xl mx-auto mt-2">
-            Мы собрали мощные игровые станции, чтобы вы могли наслаждаться
-            любимыми играми на максимальных настройках без лагов и фризов. Всего 16 ПК: 13 стандартных, 2 комфортных и 3 VIP.
+            Ощутите новый уровень погружения в игровой мир благодаря нашим игровым станциям высокой производительности.
+            В вашем распоряжении: 13 ПК категории Standart, 2 ПК Comfort и 3 ПК VIP.
           </p>
           <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
             <FeatureCard
