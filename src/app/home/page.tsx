@@ -657,11 +657,10 @@ export default function CyberStrikeHome() {
 
         {/* FOOTER */}
         <footer className="mt-20 border-t border-yellow-400/10 pt-8 pb-20 text-sm text-gray-400">
-          <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-center gap-4">
             <div>
               © <CurrentYear /> CyberStrike — Все права защищены
             </div>
-            <div className="text-xs">Дизайн и разработка — Firebase Studio</div>
           </div>
         </footer>
       </main>
